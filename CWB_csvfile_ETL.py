@@ -68,5 +68,5 @@ for path in f_mseed:
     process_file(path)
 
 newarray.to_csv('/Users/jeremy/Desktop/CWB_weather_199912to202312.csv', index=False)
-print("資料處理完成並已儲存。")
+print("Data processing is complete and has been saved.")
 # %%
